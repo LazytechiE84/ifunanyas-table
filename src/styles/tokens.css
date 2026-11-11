@@ -1,0 +1,13 @@
+/* Official palette, Ifunanya's Table brand guide 2026 */
+:root {
+  --forest: #254a14;
+  --cream: #fff8ec;
+  --deep-forest: #142b0b;
+  --parchment: #f4ead3;
+  --moss: #3b6b22;
+  --sage: #dce4d0;
+  --gold: #c99a22;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font: "EB Garamond", Georgia, serif;
+  --radius: 1rem;
+}

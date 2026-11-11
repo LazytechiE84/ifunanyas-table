@@ -1,0 +1,12 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
+body { margin: 0; background: var(--cream); color: var(--forest); font-family: var(--font); font-size: 1.125rem; line-height: 1.65; }
+img { display: block; max-width: 100%; }
+h1, h2, h3, p, ul, blockquote, figure, dl, dd { margin: 0; }
+ul { padding: 0; list-style: none; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.06; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
